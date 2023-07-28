@@ -19,17 +19,17 @@ TG频道群：https://t.me/WeiRenQAQ
 #芒果VIP
 ^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/JN0403/Scripts/main/MGTK.js
 ^http[s]?:\/\/.*mgtv\.com/(client\/dynamic_entry|v8\/video\/getSource|GetUserInfo|v3\/module\/list|credits\/url).*$ url script-response-body https://raw.githubusercontent.com/JN0403/Scripts/main/MGTV.js
-^http?:\/\/nuc\.api\.mgtv.com\/Logout url reject-200
-^http?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
-^http?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/ url reject-200
-^http?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/package\.json url reject-200
-^http?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/server_bidding\/pre_fetch\/ url reject-200
+^http[s]?:\/\/nuc\.api\.mgtv.com\/Logout url reject-200
+^http[s]?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
+^http[s]?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/ url reject-200
+^http[s]?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/package\.json url reject-200
+^http[s]?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/server_bidding\/pre_fetch\/ url reject-200
 &src\=mgtv&suuid\=.*&testversion\=&ticket\=[A-Z0-9]{32} url 302 &src=mgtv&testversion=&ticket=44C417517F6B34B9AA7903C0A5650483
-^http?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/stats\/batch\/ url reject-200
-^http?:\/\/mob\.bz\.mgtv\.com\/odin\/c1\/channel\/ads\?_ url reject-200
-^http?:\/\/mobile\.da\.mgtv\.com\/json\/app\/bdboot url reject-200
-^http?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\?_support url reject-200
-^http?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/ url reject-200
+^http[s]?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/stats\/batch\/ url reject-200
+^http[s]?:\/\/mob\.bz\.mgtv\.com\/odin\/c1\/channel\/ads\?_ url reject-200
+^http[s]?:\/\/mobile\.da\.mgtv\.com\/json\/app\/bdboot url reject-200
+^http[s]?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\?_support url reject-200
+^http[s]?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/ url reject-200
 
 [mitm]
 
