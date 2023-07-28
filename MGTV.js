@@ -33,7 +33,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [mitm]
 
-hostname = *.*.mgtv.com
+hostname = *.*.mgtv.com, *.*.*.mgtv.com
 
 ***************************************/
 
